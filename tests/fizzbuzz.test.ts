@@ -24,7 +24,7 @@ describe('Childrens are playing by saying one word', () => {
     })
 
     it('should return fizz for 6', () => {
-        expect(fizzBuzz.play(6).toEqual("Fizz"));
+        expect(fizzBuzz.play(6)).toEqual("Fizz");
     })
 
 })
