@@ -11,4 +11,9 @@ describe('Fizz Buzz Game', () => {
         expect(fizzBuzz.play(2)).toEqual("2");
     })
 
+    it('should return fizz for 3', () => {
+        let fizzBuzz = new FizzBuzz();
+        expect(fizzBuzz.play(3)).toEqual("Fizz");
+    })
+
 })
