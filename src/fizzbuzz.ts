@@ -1,9 +1,12 @@
 export class FizzBuzz {
-    game(length: number): any {
-        return this.play(length);
+    game(length: number): string {
+        let gameResult: string = "";
+        for(let i :number = 1; i <= length; i++)
+            gameResult += this.play(i);
+        return gameResult;
     }
 
-    play(length: number): any {
+    play(length: number): string {
         if(length % 15 == 0)
             return "FizzBuzz";
         if(length % 3 == 0)

@@ -44,6 +44,10 @@ describe('Childrens are playing FizzBuzz Game', () => {
         it('should return only first number for warm up', () => {
             expect(fizzBuzz.game(1)).toEqual("1");
         })
+
+        it('should return only two first number for warm up', () => {
+            expect(fizzBuzz.game(2)).toEqual("12");
+        })
     })
 })
 
