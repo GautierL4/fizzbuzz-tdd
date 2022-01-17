@@ -48,6 +48,12 @@ describe('Childrens are playing FizzBuzz Game', () => {
         it('should return only two first number for warm up', () => {
             expect(fizzBuzz.game(2)).toEqual("12");
         })
+
+        it('should return first 15 value to show an example of the game', () => {
+            expect(fizzBuzz.game(15)).toEqual("12Fizz4BuzzFizz78FizzBuzz11Fizz1314FizzBuzz");
+        })
+
+
     })
 })
 
