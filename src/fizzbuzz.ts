@@ -1,6 +1,8 @@
 export class FizzBuzz {
     play(length: number): any {
-        return "1";
+        if (length == 1)
+            return "1";
+        return "2";
     }
 
 }
