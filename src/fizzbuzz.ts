@@ -1,5 +1,7 @@
 export class FizzBuzz {
     play(length: number): any {
+        if(length % 15 == 0)
+            return "FizzBuzz";
         if(length % 3 == 0)
             return "Fizz";
         if(length % 5 == 0)
