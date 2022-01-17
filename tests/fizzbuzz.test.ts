@@ -1,6 +1,6 @@
 import { FizzBuzz } from "../src/fizzbuzz"
 
-describe('Fizz Buzz Game', () => {
+describe('Childrens are playing by saying one word', () => {
     let fizzBuzz: FizzBuzz;
 
     beforeEach(() => {
